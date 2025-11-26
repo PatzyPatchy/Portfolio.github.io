@@ -12,7 +12,7 @@
     Roboto, "Helvetica Neue", Arial;
 }
 
-.footer-cat {
+.header-cat {
   width: 100px;
   height: auto;
   vertical-align: middle;
@@ -100,8 +100,12 @@ body {
 .hero-left {
   flex: 1;
 }
-.hero-right {
-  width: 320px;
+
+.hero-right img {
+  max-width: 331px;
+  max-height: 369px;
+  width: auto;
+  height: auto;
 }
 
 .hero h2 {
@@ -245,4 +249,5 @@ body::after {
   opacity: 0.12;
   pointer-events: none;
 }
+
 
